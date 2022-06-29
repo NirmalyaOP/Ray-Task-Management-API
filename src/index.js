@@ -1,5 +1,5 @@
 const express = require("express")
-require("./db/mongoose") //We only need to establish the connection with the database
+require("./db/mongoose") //We only need to establish the connection with the database, for that mongoose.js should just run
 const userRouter = require("./routers/user")
 const taskRouter = require("./routers/task")
 
